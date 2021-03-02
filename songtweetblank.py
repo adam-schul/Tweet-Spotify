@@ -1,3 +1,4 @@
+
 import spotipy
 import tweepy
 from spotipy.oauth2 import SpotifyOAuth
@@ -11,16 +12,16 @@ loops_completed = 0
 loops = 12
 
 # Twitter personal details
-consumer_key = "pZP7kFlAFKpegNSDIr5sLqUcr"
-consumer_secret = "KLiAeezYG70EKe9uKKEdBXFISC5sfXk4215L3n7PtQGSg341pd"
-access_token = "1114306019134398464-lgWL8QFlHnxOjJ5X2GrQ72rgBI3LOk"
-access_token_secret = "sPhDeWSWwLmwtk7JM960YDFu7uV63IO72Qq379byc3mOD"
+consumer_key = ""
+consumer_secret = ""
+access_token = ""
+access_token_secret = ""
 
 # Spotify personal details
-username = 'ctbh8bkg6z5f5ovxe483osd75'
-client_id = 'b6ad6fce25ea486d8c25aa0c77387232'
-client_secret = '0fb16d2dc0814a138418b12085fe9efe'
-scope = 'user-read-currently-playing'
+username = ""
+client_id = ""
+client_secret = ""
+scope = 'user-read-currently-playing' # or whatever scope you need
 redirect_uri = 'http://localhost:7777/callback'
 
 try:
